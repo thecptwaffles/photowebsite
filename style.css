@@ -11,21 +11,108 @@
     background-color: var(--secondary-color);
     background-size: cover;
     background-position: center;
-    margin: 0;
-    padding: 0;
     border: var(--accent-color) 3px;
     width: 100%;
     height: 100%;
+    margin-bottom: 1em;
 }
 
 .title,
 h1 {
     color: whitesmoke;
     font-family: var(--primary-font);
-    font-size: 3.25rem;
+    font-size: 13.5vw;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    text-decoration: underline;
+    text-decoration: underline var(--accent-color);
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./content/layered-waves-haikei.svg);
+    margin: 0;
+    padding: 0
+}
+
+#sec1 {
+    background-image: url(./content/IMG-1252.JPG);
+    aspect-ratio: 1080/1080;
+    margin-bottom: 2em;
+}
+
+#sec2 {
+    background-image: url(./content/IMG-1401.JPG);
+    aspect-ratio: 1080/1080;
+    margin-bottom: 2em;
+}
+
+#sec3 {
+    background-image: url(./content/IMG-2871.PNG);
+    aspect-ratio: 1600/900;
+    margin-bottom: 2em
+}
+
+#sec4 {
+    background-image: url(./content/IMG-2944.JPG);
+    aspect-ratio: 3648/2736;
+    margin-bottom: 2em;
+}
+
+#sec5 {
+    background-image: url(./content/IMG-3062.JPG);
+    aspect-ratio: 3648/2736;
+    margin-bottom: 2em;
+}
+
+#sec6 {
+    background-image: url(./content/IMG-3196.JPG);
+    aspect-ratio: 3648/2736;
+    margin-bottom: 2em;
+}
+
+#sec7 {
+    background-image: url(./content/IMG-3393.JPG);
+    aspect-ratio: 1080/1080;
+    margin-bottom: 2em;
+}
+
+#sec8 {
+    background-image: url(./content/IMG-3394.jpg);
+    aspect-ratio: 1080/1080;
+    margin-bottom: 2em;
+}
+
+#sec9 {
+    background-image: url(./content/IMG-3471.JPG);
+    aspect-ratio: 3648/2736;
+    margin-bottom: 2em;
+}
+
+#sec10 {
+    background-image: url(./content/IMG-3515\(1\).JPG);
+    aspect-ratio: 1080/1080;
+    margin-bottom: 2em;
+}
+
+#sec11 {
+    background-image: url(./content/IMG-3770.JPG);
+    aspect-ratio: 3648/2736;
+    margin-bottom: 2em;
+}
+
+#sec12 {
+    background-image: url(./content/IMG-4019.JPG);
+    aspect-ratio: 3648/2736;
+    margin-bottom: 2em;
 }
